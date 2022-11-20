@@ -14,8 +14,10 @@ print ("Hello, Welcome to Pizza land")
 
 name = input ("What is your name ?\n")
 
-print ("Hey " + name + ", thank you so much for coming in today.")
-
+if name == "Ben":
+  print("You are not welcome here!")
+else:
+  print ("Hey " + name + ", thank you so much for coming in today.") 
 
 
 menufood = "Pizza margherita, Garlic Pizza, Vegetarian Pizza"
@@ -27,21 +29,16 @@ order = input()
 price = 8
 quantity = input("How many Pizza would you like? \n")
 total = price * int(quantity)
+
 print ("Thank you! Your Total is " + str(total) + "$")
-print ("Sounds Good " + name + ", we'll have the " + quantity + order + " ready for you in a moment!")
+
+print ("Sounds Good " + name + ", we'll have your " + quantity + " " + order + " ready for you in a moment!")
 
 
 #print ("Great choice!\n" + "Would you like to order a softdrink? Here is what softdrink we are serving\n\n" + menudrink)
 
 
-#order2 = input("would you like to drink something?")
-#if order2 == input ('yes')
-#	print ("Nice!")
-#elif order2 == ("no")
-#	print ("try again")
 
-
-#print ("Sounds Good! " + name + ", we'll have " + order + " ready for you in a moment")
 
 
 
