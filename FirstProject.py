@@ -28,7 +28,7 @@ price = 8
 quantity = input("How many Pizza would you like? \n")
 total = price * int(quantity)
 print ("Thank you! Your Total is " + str(total) + "$")
-print 
+print ("Sounds Good " + name + ", we'll have the " + quantity + order + " ready for you in a moment!")
 
 
 #print ("Great choice!\n" + "Would you like to order a softdrink? Here is what softdrink we are serving\n\n" + menudrink)
