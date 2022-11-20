@@ -20,12 +20,21 @@ print ("Hey " + name + ", thank you so much for coming in today.")
 
 menufood = "Pizza margherita, Garlic Pizza, Vegetarian Pizza"
 menudrink = "Fanta, Cola, Sprite"
-
+price = "8$"
 print (name + ", What would you like from our menu today? Here is what we are serving\n\n\n " + menufood)
 
 order = input()
+price = 8
+quantity = input("How many Pizza would you like? \n")
+total = price * int(quantity)
+print (total)
 
-print ("Great choice!\n" + "Would you like to order a softdrink? Here is what softdrink we are serving\n\n" + menudrink)
+print ("Great Choice!\n" + "How many would you like ?")
+
+
+print ("Awesome!\n" + quantity + order + " Will be served shortly!")
+
+#print ("Great choice!\n" + "Would you like to order a softdrink? Here is what softdrink we are serving\n\n" + menudrink)
 
 
 #order2 = input("would you like to drink something?")
@@ -35,7 +44,7 @@ print ("Great choice!\n" + "Would you like to order a softdrink? Here is what so
 #	print ("try again")
 
 
-print ("Sounds Good! " + name + ", we'll have " + order + " ready for you in a moment")
+#print ("Sounds Good! " + name + ", we'll have " + order + " ready for you in a moment")
 
 
 

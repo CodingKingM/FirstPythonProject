@@ -3,10 +3,8 @@ age = 19  # integers
 actual_age = 23.2003    #floating point number
 
 
-print (name)
-print (age)
+math = 5 ** 7 + 6 / 9 * 6 - 4 
 
-print(type(name))   
-print(type(age))
+results = age + actual_age + math
 
-print(type(actual_age))
+print (results)
