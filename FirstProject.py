@@ -7,24 +7,36 @@
 
 #print("Hello World.\n" + "My name is Malek.\n" + "I am 19 years old") #concatenating
 #print("Hello World\n" * 100)
-
+#----------------------------------#
 #Lets build a coffe barista
 
-print ("Hello, Welcome to Malek Coffee")
+print ("Hello, Welcome to Pizza land")
 
 name = input ("What is your name ?\n")
 
-print ("Hello " + name + ", thank you so much for coming in today.")
+print ("Hey " + name + ", thank you so much for coming in today.")
 
 
 
-menu = "Black Coffe, Espresso, Latte, Hot chocolate"
+menufood = "Pizza margherita, Garlic Pizza, Vegetarian Pizza"
+menudrink = "Fanta, Cola, Sprite"
 
-print (name + ", What would you like from our menu today? Here is what we are serving\n\n\n " + menu
-)
+print (name + ", What would you like from our menu today? Here is what we are serving\n\n\n " + menufood)
 
 order = input()
 
+print ("Great choice!\n" + "Would you like to order a softdrink? Here is what softdrink we are serving\n\n" + menudrink)
+
+
+#order2 = input("would you like to drink something?")
+#if order2 == input ('yes')
+#	print ("Nice!")
+#elif order2 == ("no")
+#	print ("try again")
+
+
 print ("Sounds Good! " + name + ", we'll have " + order + " ready for you in a moment")
+
+
 
 
